@@ -61,10 +61,7 @@
       color: #2940d3;
   }
 
-  // .work-div h3 {
-  //   display: flex;
-  //   justify-content: center;
-  // }
+  
 
   .work-div {
     display: flex;
@@ -105,17 +102,75 @@
     width: 2.5%;            
   }
 
-  .contact-info, p {
-      font-size: 120%;
+  .contact_me a {
+    color: #fff;
+    padding-left: 10px;
   }
 
-  .hobbie, ul li a {
-    color: white;
+  #hobbies-body .a-tag {
+    background-color: #333;
+    display: inline-flex;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 15%;
+    text-decoration: none;
+    color: #fff;
+    
   }
 
-  .contact, ul li a {
-    color: white;
+  .a-tag:hover{
+    opacity: 0.6;
   }
+
+  #hobbies-body h3 {
+    background: #fea82f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #hobbies-body .ordered-list .list-item1 {
+    display: inline-flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: 270px;
+    padding: 5px 0;
+
+  }
+  #hobbies-body .ordered-list .list-item2 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    
+  }
+
+  #hobbies-body .ordered-list p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  #hobbies-body .ordered-list a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: cornflowerblue;
+  }
+
+  #hobbies-body .ordered-list a:hover{
+    background-color: chocolate;
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  
 
   .footer, .foot-p {
     color: white;
@@ -124,4 +179,22 @@
     align-items: center;
     padding: 3px 0;
     margin: 10px 0;
+  }
+  
+  .footer, .foot-h {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 3px;
+  }
+  
+  .footer, .foot-hc {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 3px;
   }
