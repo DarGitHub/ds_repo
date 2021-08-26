@@ -32,29 +32,29 @@
 
   .books-div {
     background-color: #77acf1;
-    //padding-left: 40px;
+    
   }
 
   .books-div h3 {
     display: flex;
     justify-content: center;
-    padding: 0 40px;
+    padding: 0 20px;
   }
 
   .books-div .table-row td {
     justify-content: center;
-    padding: 0 40px;
+    padding: 0 10px;
   }
 
   #main-image {
     border-radius: 50%;
-    width: 200px;
+    width: 100px;
   }
 
   #car-image {
     border-radius: 25%;
     margin-top: 10px;
-    width: 200px;
+    width: 100px;
   }
 
   h1, h3 {
@@ -198,3 +198,19 @@
     padding-top: 10px;
     margin-top: 3px;
   }
+
+  
+
+  .footer .p {
+      padding-bottom: 5px;
+      margin: 3px;
+  }
+  .footer .h {
+      padding-bottom: 5px;
+      margin: 3px;
+  }
+  .footer .hc {
+      padding-bottom: 5px;
+      margin: 3px;
+  }
+}
