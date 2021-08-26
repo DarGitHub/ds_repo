@@ -4,60 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Darrell's Personal Site</title>
+  
 </head>
-<body>
-  <table cellspacing="40px">
-    <tr>
-      <td><img src="./img/IMG_7432 (Edited).JPG" width="150px" alt="My Pic">
-        <img src="https://static2.thethingsimages.com/wordpress/wp-content/uploads/2020/03/Rarest-Mercedes-Benz-Cars-Of-All-Time-And-Where-They-Are-Today-1.jpg"width="150px" alt="Car"></td>
-      <td><h1>Darrell E. M. Smith</h1>
+<body id="index-body"> 
+  <header>
+    <nav id="navbar">
+      <div class="hobbie">
+        <ul>
+          <li><a href="hobbies.html">My Hobbies</a></li>
+               
+        </ul>
+      </div>
+      <div class="contact">
+        <ul>
+          
+          <li><a href="contact.html">Contact Me</a></li>     
+        </ul>
+      </div>
+      
+    </nav>
+  </header>
+  <div class="body-div">
+     <table cellspacing="40px">
+      <tr>
+        <td><img id="main-image" src="./img/IMG_7432 (Edited).JPG" width="150px" alt="My Pic">
+          <img id="car-image" src="https://static2.thethingsimages.com/wordpress/wp-content/uploads/2020/03/Rarest-Mercedes-Benz-Cars-Of-All-Time-And-Where-They-Are-Today-1.jpg"width="150px" alt="Car"></td>
+        <td><h1>Darrell E. M. Smith</h1>
+          <!-- My url https://dargithub.github.io/ds_repo/ -->
+    
+          <p><em>Student Developer</em></p>
+          <p>I have been a student of development for three years. I Attended MCC College
+          studied java currently I am a student at Brandman University for
+           Computer Science and Information Technology.  </p></td>
+      </tr>
+    </table>
+  </div>
+   <hr class="hr1">
+  <div class="books-div">
+    <table cellspacing="10px">
+      <h3>Books of Study</h3>
+    <ul>
+      <tr class="table-row">
+        <td><li>Murach's Java programming</li></td>
+        <td><li>The Norton Reader</li></td>
+        <td><li>Essentials of Business Communication</li></td>
+      </tr>
+      <tr class="table-row">
+        <td><li>Java The Complete Reference</li></td>
+        <td><li>Microsoft Visual C# step by Step</li></td>
+        <td><li>Mastering Visual Studio 2017</li</td>
+      </tr>
+    </ul>
+    </table>
+    
+    <hr class="hr2">  
+  </div>
+  <div class="work-div">
   
-        <p><em>Student Developer</em></p>
-        <p>I have been a student of development for three years. I Attended MCC College
-        studied java currently I am a student at Brandman University for
-         Computer Science and Information Technology.  </p></td>
-    </tr>
-  </table>
-  
-   <hr>
-   <h3>Books of Study</h3>
-   <ul>
-     <li>Murach's Java programming</li>
-     <li>The Norton Reader</li>
-     <li>Essentials of Business Communication</li>
-     <li>Java The Complete Reference</li>
-     <li>Microsoft Visual C# step by Step</li>
-     <li>Mastering Visual Studio 2017</li>
-   </ul>
-<hr size="5"noshade>
-   <ul>
-     <h3>Work Experience</h3>
-     <br>
-     <table cellspacing="10px">
-       <thead>
-         <tr>
-           <th>Dates</th>
-           <th>Work</th>
-         </tr>
-       </thead>
-       <tbody>
-        <tr>
-          <td>2019-2021</td>
-          <td>&nbsp;&nbsp;&nbsp;Walmart Associate</td>
-         </tr>
-         <tr>
-          <td>2018-2021</td>
-          <td>&nbsp;&nbsp;&nbsp;Student at Brandman University</td>
-         </tr>
-         <tr>
-          <td>1998-2017</td>
-          <td>&nbsp;&nbsp;&nbsp;Forge Operator</td>
-         </tr>
-       </tbody> 
-     </table>
-<hr size="5px"noshade>
-     <h3>Skills</h3> 
+    <h3>Work Experience</h3>
+    <br>
+    <table cellspacing="10px">
+      <thead>
+        <tr class="work-trow">
+          <th>Dates</th>
+          <th class="work-work">Work For</th>
+        </tr>
+      </thead>
+      <tbody>
+       <tr class="work-trow">
+         <td>2019-2021</td>
+         <td>&nbsp;&nbsp;&nbsp;Walmart Associate</td>
+        </tr>
+        <tr class="work-trow">
+         <td>2018-2021</td>
+         <td>&nbsp;&nbsp;&nbsp;Student at Brandman University</td>
+        </tr>
+        <tr class="work-trow">
+         <td>1998-2017</td>
+         <td>&nbsp;&nbsp;&nbsp;Forge Operator</td>
+        </tr>
+      </tbody> 
+    </table>
+  </div>
+   
+<hr class="hr3">
+  <div class="skills-div">
+    <h3>Skills</h3> 
       <table cellspacing="10px">
         <tr>
           <td>Game Development</td>
@@ -84,15 +118,27 @@
           <td>⭐⭐⭐⭐⭐</td>
         </tr>
       </table>
-     <hr size="5px"noshade>
-     <li><a href="Hobbies.html">My Hobbies</a></li>
-     <li><a href="contact.html">Contact Me</a></li>     
-   </ul>
+  </div>
+     
+     <hr class="hr4">
+     <div class="hobbie">
+      <ul>
+        <li><a href="hobbies.html">My Hobbies</a></li>
+             
+      </ul>
+    </div>
+    <div class="contact">
+      <ul>
+        
+        <li><a href="contact.html">Contact Me</a></li>     
+      </ul>
+    </div>
+    
    <footer>
     <div id="footer">
-      <p>Created By: Darrell E. M. Smith</p>
-      <p>Copyright &copy; 2021</p>
-  </div>
+      <p class="foot-p">Created By: Darrell E. M. Smith</p>
+      <p class="foot-p">Copyright &copy; 2021</p>
+    </div>
    </footer>
 </body>
 </html>

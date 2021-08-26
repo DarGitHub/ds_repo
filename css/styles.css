@@ -1,0 +1,127 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#index-body {
+    background-color: #26001b;
+  }
+
+  #navbar,ul li a {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    
+  }
+
+  #hobbies-body {
+    background-color: #dbe6fd;
+  }
+
+  #contact-body {
+    background-color: #a7c4bc;
+  }
+
+  .body-div {
+    background-color: #1cc5dc;
+  }
+
+  .books-div {
+    background-color: #77acf1;
+    //padding-left: 40px;
+  }
+
+  .books-div h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  .books-div .table-row td {
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  #main-image {
+    border-radius: 50%;
+    width: 200px;
+  }
+
+  #car-image {
+    border-radius: 25%;
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  h1, h3 {
+      color: #2940d3;
+  }
+
+  // .work-div h3 {
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  .work-div {
+    display: flex;
+    background-color: #fea82f;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+        
+  }
+
+  .work-div .work-work {
+   display: flex;
+   padding-left: 40px;
+  }
+
+
+  .skills-div  {
+    background-color: #78c4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hr1, .hr2 {
+    background-color: green;
+    border-style: none;
+    height: 5px;
+         
+  }
+
+  .hr3, .hr4 {
+    border-color: white;
+    border-style:none;
+    border-top: dotted;
+    border-top-width: 5px;     
+    width: 2.5%;            
+  }
+
+  .contact-info, p {
+      font-size: 120%;
+  }
+
+  .hobbie, ul li a {
+    color: white;
+  }
+
+  .contact, ul li a {
+    color: white;
+  }
+
+  .footer, .foot-p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+    margin: 10px 0;
+  }
